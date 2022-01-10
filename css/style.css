@@ -986,8 +986,21 @@ header {
 
   width: 448px;
   height: 40px;
+
+  padding-left: 42px;
 }
 
-.modal-list .label {
+.modal-form {
+  width: 448px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.modal .icon {
+  width: 18px;
+  height: 18px;
+
   position: absolute;
+  top: 35px;
+  left: 12px;
 }
