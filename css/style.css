@@ -833,7 +833,6 @@ header {
   transform: translate(-50%, -50%);
 
   width: 528px;
-  height: 581px;
 
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -1054,8 +1053,9 @@ header {
   height: 15px;
 
   position: absolute;
-  background-image: url(../images/off.svg);
 
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
   margin-left: -24px;
 }
 
@@ -1068,5 +1068,28 @@ header {
 }
 
 .modal .checkbox:checked + .icon-checkbox {
-  background-image: url(../images/on.svg);
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
+
+  background-image: url(../images/full-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.modal input:hover {
+  cursor: pointer;
+}
+
+.modal .label-check:hover {
+  cursor: pointer;
+}
+
+.modal .button.primary {
+  width: 200px;
+}
+
+.modal-form {
+  padding-bottom: 40px;
 }
