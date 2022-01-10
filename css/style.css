@@ -1012,6 +1012,9 @@ header {
 .modal .modal-close:focus .icon,
 .modal .modal-close:hover .icon {
   fill: var(--accent-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal input:focus + .icon {
