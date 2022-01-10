@@ -1004,3 +1004,7 @@ header {
   top: 35px;
   left: 12px;
 }
+
+.modal .coment-label {
+  padding-left: 16px;
+}
