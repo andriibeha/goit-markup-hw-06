@@ -1031,3 +1031,39 @@ header {
 .modal .item {
   text-align: left;
 }
+
+.modal .modal-close {
+  cursor: pointer;
+}
+
+.modal .checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/*  border: 2px solid var(--title-text-color);
+  height: 15px;
+  width: 16px;*/
+
+.modal .icon-checkbox {
+  width: 16px;
+  height: 15px;
+
+  position: absolute;
+  background-image: url(../images/off.svg);
+
+  margin-left: -24px;
+}
+
+.modal .label-check {
+  padding-left: 24px;
+  margin-left: 12px;
+
+  display: flex;
+  align-items: center;
+}
+
+.modal .checkbox:checked + .icon-checkbox {
+  background-image: url(../images/on.svg);
+}
