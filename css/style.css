@@ -1009,8 +1009,8 @@ header {
   padding-left: 16px;
 }
 
-.modal .icon:focus,
-.modal .icon:hover {
+.modal .modal-close:focus .icon,
+.modal .modal-close:hover .icon {
   fill: var(--accent-color);
 }
 
@@ -1018,6 +1018,16 @@ header {
   fill: var(--accent-color);
 }
 
-.modal .checkbox-span {
+.modal .checkbox-link {
   color: var(--accent-color);
+}
+
+.modal .coment {
+  height: 120px;
+
+  padding-bottom: 80px;
+}
+
+.modal .label {
+  text-align: left;
 }
