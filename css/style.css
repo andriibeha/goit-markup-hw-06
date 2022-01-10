@@ -1008,3 +1008,16 @@ header {
 .modal .coment {
   padding-left: 16px;
 }
+
+.modal .icon:focus,
+.modal .icon:hover {
+  fill: var(--accent-color);
+}
+
+.modal input:focus + .icon {
+  fill: var(--accent-color);
+}
+
+.modal .checkbox-span {
+  color: var(--accent-color);
+}
